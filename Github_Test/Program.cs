@@ -6,7 +6,14 @@ namespace Github_Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Max");
+            Console.WriteLine("Choose a number");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Choose another number");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Choose a symbol (+; -; *; /;)");
+
+
         }
     }
 }
